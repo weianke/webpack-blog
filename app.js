@@ -1,12 +1,9 @@
-// es moudle
-import sum from './sum'
+let func = () => {}
 
-var minus = require('./minus.js');
+const num = 45;
 
-require(['./muti'], function(muti) {
-    console.log('muti(2, 3)=',muti(2, 3))
-})
+let arr = [1,2,3];
 
-console.log('sum(23, 24) = ',sum(23, 24));
+let arrB = arr.map(item=>item*2);
 
-console.log('minus(24, 17) = ',minus(24, 17));
+console.log('new Set(arr0)=', new Set(arrB))
