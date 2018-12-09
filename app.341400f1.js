@@ -67,6 +67,10 @@
 /* 0 */
 /***/ (function(module, exports) {
 
+var _marked =
+/*#__PURE__*/
+regeneratorRuntime.mark(func);
+
 var func = function func() {};
 
 var num = 45;
@@ -74,7 +78,20 @@ var arr = [1, 2, 3];
 var arrB = arr.map(function (item) {
   return item * 2;
 });
+arr.includes(8);
 console.log('new Set(arr0)=', new Set(arrB));
+
+function func() {
+  return regeneratorRuntime.wrap(function func$(_context) {
+    while (1) {
+      switch (_context.prev = _context.next) {
+        case 0:
+        case "end":
+          return _context.stop();
+      }
+    }
+  }, _marked, this);
+}
 
 /***/ })
 /******/ ]);
