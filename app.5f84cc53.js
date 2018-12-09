@@ -67,7 +67,14 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: Error: [BABEL] D:\\my-webpack-blog\\app.js: Invalid Option: '> 1%,last 2 versions' is not a valid value for 'targets.browers'. (While processing: \"D:\\\\my-webpack-blog\\\\node_modules\\\\@babel\\\\preset-env\\\\lib\\\\index.js\")\n    at semverifyTarget (D:\\my-webpack-blog\\node_modules\\@babel\\preset-env\\lib\\targets-parser.js:154:11)\n    at __default (D:\\my-webpack-blog\\node_modules\\@babel\\preset-env\\lib\\targets-parser.js:160:92)\n    at Object.keys.filter.sort.reduce (D:\\my-webpack-blog\\node_modules\\@babel\\preset-env\\lib\\targets-parser.js:204:43)\n    at Array.reduce (<anonymous>)\n    at getTargets (D:\\my-webpack-blog\\node_modules\\@babel\\preset-env\\lib\\targets-parser.js:192:104)\n    at _default (D:\\my-webpack-blog\\node_modules\\@babel\\preset-env\\lib\\index.js:187:46)\n    at D:\\my-webpack-blog\\node_modules\\@babel\\helper-plugin-utils\\lib\\index.js:19:12\n    at loadDescriptor (D:\\my-webpack-blog\\node_modules\\@babel\\core\\lib\\config\\full.js:165:14)\n    at cachedFunction (D:\\my-webpack-blog\\node_modules\\@babel\\core\\lib\\config\\caching.js:33:19)\n    at loadPresetDescriptor (D:\\my-webpack-blog\\node_modules\\@babel\\core\\lib\\config\\full.js:235:63)\n    at config.presets.reduce (D:\\my-webpack-blog\\node_modules\\@babel\\core\\lib\\config\\full.js:77:21)\n    at Array.reduce (<anonymous>)\n    at recurseDescriptors (D:\\my-webpack-blog\\node_modules\\@babel\\core\\lib\\config\\full.js:74:38)\n    at loadFullConfig (D:\\my-webpack-blog\\node_modules\\@babel\\core\\lib\\config\\full.js:108:6)\n    at process.nextTick (D:\\my-webpack-blog\\node_modules\\@babel\\core\\lib\\transform.js:28:33)\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)");
+var func = function func() {};
+
+var num = 45;
+var arr = [1, 2, 3];
+var arrB = arr.map(function (item) {
+  return item * 2;
+});
+console.log('new Set(arr0)=', new Set(arrB));
 
 /***/ })
 /******/ ]);

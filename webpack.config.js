@@ -15,12 +15,13 @@ module.exports = {
                         presets: [
                             ['@babel/preset-env',{
                                 targets: {
-                                    browers: ['> 1%', 'last 2 versions']
+                                    browsers: ['> 1%', 'last 2 versions']
                                 }
                             }]
                         ]
                     }
-                }
+                },
+                exclude: '/node_modules/'
             }
         ]
     }
